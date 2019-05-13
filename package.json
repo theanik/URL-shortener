@@ -1,0 +1,23 @@
+{
+  "name": "url_shotener",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Anik",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node":"v10.15.3",
+    "yarn":"1.13.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^7.10.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^5.8.0"
+  }
+}
